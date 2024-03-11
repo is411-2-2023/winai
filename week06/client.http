@@ -1,0 +1,10 @@
+GET http://127.0.0.1:8000/users/
+
+POST http://127.0.0.1:8000/users/ HTTP/1.1
+content-type: application/json
+
+{
+    "email": "b@b.com",
+    "password": "password"
+}
+
